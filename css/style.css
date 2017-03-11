@@ -15,7 +15,6 @@ body{
 .wrapper{
 	border: 10px solid #2D89B7;
 	min-height: 100%;
-	padding-left: 15%;
 }
 
 header{
@@ -27,8 +26,8 @@ header{
 	background:#22BFFF;
 	font-size:0;
 	line-height:0;
-	margin: 0;
-	padding: 0;
+	max-width: 100%;
+	margin: auto;
 }
 .cities li{
 	border: 2px solid #fff;
@@ -41,9 +40,13 @@ header{
 	vertical-align: top;
 	opacity: 0.7;
 }
-.cities li:hover{
+ul:hover{
+	opacity: 0.5;
+}
+li:hover{
 	opacity:1;
 }
+
 [class^="width30"] {
 	width:30%;
 }
